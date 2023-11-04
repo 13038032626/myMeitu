@@ -21,8 +21,8 @@ import java.util.List;
 public class OSSUtils {
 
     String endPoint = "https://oss-cn-hangzhou.aliyuncs.com";
-    String accessId = "LTAI5tQ9YSi1oGfP9ERREzoY";
-    String accessKey = "ohHPZS24lBmYZx6wZB3DIIZycmgIkX";
+    String accessId = "your accessId";
+    String accessKey = "your accessKey";
 
     OSS ossClient = new OSSClientBuilder().build(endPoint,accessId,accessKey);
 
